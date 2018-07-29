@@ -19,71 +19,71 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\dep\lua\lapi.c" />
-    <ClCompile Include="..\dep\lua\lauxlib.c" />
-    <ClCompile Include="..\dep\lua\lbaselib.c" />
-    <ClCompile Include="..\dep\lua\lbitlib.c" />
-    <ClCompile Include="..\dep\lua\lcode.c" />
-    <ClCompile Include="..\dep\lua\lcorolib.c" />
-    <ClCompile Include="..\dep\lua\lctype.c" />
-    <ClCompile Include="..\dep\lua\ldblib.c" />
-    <ClCompile Include="..\dep\lua\ldebug.c" />
-    <ClCompile Include="..\dep\lua\ldo.c" />
-    <ClCompile Include="..\dep\lua\ldump.c" />
-    <ClCompile Include="..\dep\lua\lfunc.c" />
-    <ClCompile Include="..\dep\lua\lgc.c" />
-    <ClCompile Include="..\dep\lua\linit.c" />
-    <ClCompile Include="..\dep\lua\liolib.c" />
-    <ClCompile Include="..\dep\lua\llex.c" />
-    <ClCompile Include="..\dep\lua\lmathlib.c" />
-    <ClCompile Include="..\dep\lua\lmem.c" />
-    <ClCompile Include="..\dep\lua\loadlib.c" />
-    <ClCompile Include="..\dep\lua\lobject.c" />
-    <ClCompile Include="..\dep\lua\lopcodes.c" />
-    <ClCompile Include="..\dep\lua\loslib.c" />
-    <ClCompile Include="..\dep\lua\lparser.c" />
-    <ClCompile Include="..\dep\lua\lstate.c" />
-    <ClCompile Include="..\dep\lua\lstring.c" />
-    <ClCompile Include="..\dep\lua\lstrlib.c" />
-    <ClCompile Include="..\dep\lua\ltable.c" />
-    <ClCompile Include="..\dep\lua\ltablib.c" />
-    <ClCompile Include="..\dep\lua\ltm.c" />
-    <ClCompile Include="..\dep\lua\luac.c" />
-    <ClCompile Include="..\dep\lua\lundump.c" />
-    <ClCompile Include="..\dep\lua\lutf8lib.c" />
-    <ClCompile Include="..\dep\lua\lvm.c" />
-    <ClCompile Include="..\dep\lua\lzio.c" />
+    <ClCompile Include="lapi.c" />
+    <ClCompile Include="lauxlib.c" />
+    <ClCompile Include="lbaselib.c" />
+    <ClCompile Include="lbitlib.c" />
+    <ClCompile Include="lcode.c" />
+    <ClCompile Include="lcorolib.c" />
+    <ClCompile Include="lctype.c" />
+    <ClCompile Include="ldblib.c" />
+    <ClCompile Include="ldebug.c" />
+    <ClCompile Include="ldo.c" />
+    <ClCompile Include="ldump.c" />
+    <ClCompile Include="lfunc.c" />
+    <ClCompile Include="lgc.c" />
+    <ClCompile Include="linit.c" />
+    <ClCompile Include="liolib.c" />
+    <ClCompile Include="llex.c" />
+    <ClCompile Include="lmathlib.c" />
+    <ClCompile Include="lmem.c" />
+    <ClCompile Include="loadlib.c" />
+    <ClCompile Include="lobject.c" />
+    <ClCompile Include="lopcodes.c" />
+    <ClCompile Include="loslib.c" />
+    <ClCompile Include="lparser.c" />
+    <ClCompile Include="lstate.c" />
+    <ClCompile Include="lstring.c" />
+    <ClCompile Include="lstrlib.c" />
+    <ClCompile Include="ltable.c" />
+    <ClCompile Include="ltablib.c" />
+    <ClCompile Include="ltm.c" />
+    <ClCompile Include="lua.c" />
+    <ClCompile Include="lundump.c" />
+    <ClCompile Include="lutf8lib.c" />
+    <ClCompile Include="lvm.c" />
+    <ClCompile Include="lzio.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\dep\lua\lapi.h" />
-    <ClInclude Include="..\dep\lua\lauxlib.h" />
-    <ClInclude Include="..\dep\lua\lcode.h" />
-    <ClInclude Include="..\dep\lua\lctype.h" />
-    <ClInclude Include="..\dep\lua\ldebug.h" />
-    <ClInclude Include="..\dep\lua\ldo.h" />
-    <ClInclude Include="..\dep\lua\lfunc.h" />
-    <ClInclude Include="..\dep\lua\lgc.h" />
-    <ClInclude Include="..\dep\lua\llex.h" />
-    <ClInclude Include="..\dep\lua\llimits.h" />
-    <ClInclude Include="..\dep\lua\lmem.h" />
-    <ClInclude Include="..\dep\lua\lobject.h" />
-    <ClInclude Include="..\dep\lua\lopcodes.h" />
-    <ClInclude Include="..\dep\lua\lparser.h" />
-    <ClInclude Include="..\dep\lua\lprefix.h" />
-    <ClInclude Include="..\dep\lua\lstate.h" />
-    <ClInclude Include="..\dep\lua\lstring.h" />
-    <ClInclude Include="..\dep\lua\ltable.h" />
-    <ClInclude Include="..\dep\lua\ltm.h" />
-    <ClInclude Include="..\dep\lua\lua.h" />
-    <ClInclude Include="..\dep\lua\lua.hpp" />
-    <ClInclude Include="..\dep\lua\luaconf.h" />
-    <ClInclude Include="..\dep\lua\lualib.h" />
-    <ClInclude Include="..\dep\lua\lundump.h" />
-    <ClInclude Include="..\dep\lua\lvm.h" />
-    <ClInclude Include="..\dep\lua\lzio.h" />
+    <ClInclude Include="lapi.h" />
+    <ClInclude Include="lauxlib.h" />
+    <ClInclude Include="lcode.h" />
+    <ClInclude Include="lctype.h" />
+    <ClInclude Include="ldebug.h" />
+    <ClInclude Include="ldo.h" />
+    <ClInclude Include="lfunc.h" />
+    <ClInclude Include="lgc.h" />
+    <ClInclude Include="llex.h" />
+    <ClInclude Include="llimits.h" />
+    <ClInclude Include="lmem.h" />
+    <ClInclude Include="lobject.h" />
+    <ClInclude Include="lopcodes.h" />
+    <ClInclude Include="lparser.h" />
+    <ClInclude Include="lprefix.h" />
+    <ClInclude Include="lstate.h" />
+    <ClInclude Include="lstring.h" />
+    <ClInclude Include="ltable.h" />
+    <ClInclude Include="ltm.h" />
+    <ClInclude Include="lua.h" />
+    <ClInclude Include="lua.hpp" />
+    <ClInclude Include="luaconf.h" />
+    <ClInclude Include="lualib.h" />
+    <ClInclude Include="lundump.h" />
+    <ClInclude Include="lvm.h" />
+    <ClInclude Include="lzio.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\dep\lua\Makefile" />
+    <None Include="Makefile" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -139,7 +139,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+    <OutDir>$(SolutionDir)..\bin\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
     <IntDir>$(SolutionDir)\..\build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -149,7 +149,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+    <OutDir>$(SolutionDir)..\bin\$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
     <IntDir>$(SolutionDir)\..\build\$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
